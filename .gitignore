@@ -1,0 +1,6 @@
+.venv/
+.env
+data/
+chroma_db/
+chunks.json
+__pycache__/

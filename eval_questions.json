@@ -1,0 +1,312 @@
+[
+  {
+    "question": "Why does keeping all business data in one big spreadsheet cause problems?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      9,
+      11
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is a transaction in a database?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      32
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What do the letters in CRUD stand for, and which SQL statements match them?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      61
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Which popular database systems are free and relational?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      28
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What does the data independence principle say about physical design?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      52
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What are the three phases of database design?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      46
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What happens during the logical design phase for a relational database?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      49
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What gets added during physical design?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      51
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is Big Data and why are traditional tools not enough for it?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      22
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What does a DBMS let end users do?",
+    "source": "Chapter 1.pdf",
+    "pages": [
+      26
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What rules must the values of a primary key follow?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many primary keys can one table have?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What three conditions must a composite primary key meet?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      10
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What does an auto-increment column do when a new row is inserted?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      14
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Should I include the ID in an INSERT statement if the column is auto-increment?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      16
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is a foreign key?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      20
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Can foreign key values be NULL or repeated?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      20
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Is it allowed for one column of a composite foreign key to be NULL while the other has a value?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      23
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What are the actions a database can take to fix referential integrity violations?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      33,
+      34
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What happens to child rows when a parent row is deleted with ON DELETE CASCADE?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      40
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What does a CHECK constraint do?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      29
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Why does a WHERE clause comparing a column to NULL with equals return no rows?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      41,
+      42
+    ],
+    "answerable": true
+  },
+  {
+    "question": "In what ways can referential integrity be violated?",
+    "source": "Chapter 2.2.pdf",
+    "pages": [
+      31
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What are the main goals of normalization?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is an insertion anomaly?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      15
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is an update anomaly?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      18
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is a deletion anomaly?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      19,
+      20
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What are spurious tuples and how can a bad decomposition create them?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      22,
+      25
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is a functional dependency?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      26
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is a super key?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      30
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What rules must a table follow to be in first normal form?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      33,
+      44
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Why does storing several values in one column violate first normal form?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      38,
+      41
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is a partial dependency and which normal form does it violate?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      48,
+      58
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What must a table satisfy to be in third normal form?",
+    "source": "Chapter4.3 Normalization.pdf",
+    "pages": [
+      63
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the capital of France?",
+    "source": null,
+    "pages": [],
+    "answerable": false
+  },
+  {
+    "question": "Who invented the telephone?",
+    "source": null,
+    "pages": [],
+    "answerable": false
+  },
+  {
+    "question": "How does a B-tree index work internally?",
+    "source": null,
+    "pages": [],
+    "answerable": false
+  },
+  {
+    "question": "What is database sharding?",
+    "source": null,
+    "pages": [],
+    "answerable": false
+  },
+  {
+    "question": "How do I train a neural network in PyTorch?",
+    "source": null,
+    "pages": [],
+    "answerable": false
+  }
+]
